@@ -6,9 +6,11 @@ class HelloWorld
 	static void Welcomemethod()
 	{
 		System.out.println("Hello World ...... Welcome to GIT !!!!!");
+		Syso("hello");
 	}
 	public staic void main(String args[])
-	{
-		mymethod();
+	{ 	
+	HelloWorld obj=new HelloWorld();
+		obj.mymethod();
 	}
 }
