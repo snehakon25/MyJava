@@ -1,7 +1,14 @@
 class HelloWorld
 {
+
+
+
+	void mymethod()
+	{
+		System.out.println("Hello World ...... Welcome to GIT !!!!!");
+	}
 	public staic void main(String args[])
 	{
-		System.out.println("Hello World ......!!!!!");
+		mymethod();
 	}
 }
