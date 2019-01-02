@@ -3,12 +3,13 @@ class HelloWorld
 
 
 
-	static void Welcomemethod()
+	 void Welcomemethod()
 	{
 		System.out.println("Hello World ...... Welcome to GIT !!!!!");
 	}
 	public staic void main(String args[])
 	{
-		mymethod();
+		HelloWorld h=new HelloWorld();
+	h.mymethod();
 	}
 }
