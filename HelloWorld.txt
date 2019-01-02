@@ -6,10 +6,17 @@ class HelloWorld
 	 void Welcomemethod()
 	{
 		System.out.println("Hello World ...... Welcome to GIT !!!!!");
+		Syso("hello");
 	}
 	public staic void main(String args[])
+<<<<<<< HEAD
 	{
 		HelloWorld h=new HelloWorld();
 	h.mymethod();
+=======
+	{ 	
+	HelloWorld obj=new HelloWorld();
+		obj.mymethod();
+>>>>>>> demo
 	}
 }
