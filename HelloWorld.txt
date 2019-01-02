@@ -3,7 +3,7 @@ class HelloWorld
 
 
 
-	void mymethod()
+	static void Welcomemethod()
 	{
 		System.out.println("Hello World ...... Welcome to GIT !!!!!");
 	}
